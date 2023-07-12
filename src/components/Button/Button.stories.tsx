@@ -12,7 +12,7 @@ export default meta;
 type Story = StoryObj<typeof Button>;
 
 export const Primary: Story = (args) => (
-                   <Button data-testId="InputField-id" {...args} />
+<Button data-testId="InputField-id" {...args} />
 );
 Primary.args = {
   primary: true,
@@ -27,7 +27,7 @@ export const Secondary: Story = (args) => (
 Secondary.args = {
   primary: false,
   disabled: false,
-  text: "Secondary",
+  text: "Se",
 };
 
 export const Disabled: Story = (args) => (

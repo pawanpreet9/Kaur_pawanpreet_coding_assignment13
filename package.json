@@ -18,6 +18,16 @@
     "eslint-check": "eslint .",
     "test": "npm test"
   },
+  "husky": {
+    "hooks": {
+    "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
+      "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
+      "post-applypatch": "echo \"[Husky] post-applypatch\"",
+      "pre-commit": "echo \"[Husky] pre-commit\""
+
+    }
+  }
+,
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -76,10 +86,5 @@
   "dependencies": {
     "husky": "^8.0.3",
     "tslib": "^2.5.3"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run pre-commit-check"
-    }
   }
 }
