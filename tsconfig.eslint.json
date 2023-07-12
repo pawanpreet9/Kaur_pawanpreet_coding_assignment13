@@ -1,0 +1,49 @@
+{
+  "include": ["dist/cjs/types/components/**/*.d.ts",
+  "dist/cjs/types/components/**/*.types.d.ts",
+  "dist/cjs/types/components/**/*.d.ts",
+  "dist/cjs/types/components/index.d.ts",
+  "dist/cjs/types/components/index.d.ts",
+  "src/stories/Page.tsx",
+  "dist/esm/types/src/components/**/*.types.d.ts",
+  "dist/esm/types/src/components/**/*.d.ts",
+  "dist/esm/types/src/components/Img/Img.d.ts",
+  "dist/esm/types/src/components/Label/Label.types.d.ts",
+  "dist/esm/types/src/components/Label/Label.d.ts",
+  "dist/esm/types/src/components/Label/index.d.ts",
+  "dist/esm/types/src/components/RadioButton/RadioButton.types.d.ts",
+  "dist/esm/types/src/components/RadioButton/RadioButton.d.ts",
+  "dist/esm/types/src/components/RadioButton/index.d.ts",
+  "dist/esm/types/src/components/Table/Table.types.d.ts",
+  "dist/esm/types/src/components/Table/Table.d.ts",
+  "dist/esm/types/src/components/Table/index.d.ts",
+  "dist/esm/types/src/components/Table/TableCell.d.ts",
+  "dist/esm/types/src/components/Table/TableFooter.d.ts",
+  "dist/esm/types/src/components/Table/TableHeader.d.ts",
+  "dist/esm/types/src/components/Table/TableRow.d.ts",
+  "dist/esm/types/src/components/Text/Text.d.ts",
+  "dist/esm/types/src/components/Text/Text.types.d.ts",
+  "dist/esm/types/src/components/Text/index.d.ts",
+  "dist/esm/types/src/components/index.d.ts",
+  "dist/esm/types/src/index.d.ts",
+  "dist/esm/types/src/stories/**/*.d.ts",
+  "dist/esm/types/src/stories/Text/Text.d.ts",
+  "src/components/**/*.ts",
+  "src/components/**/*.stories.tsx",
+  "src/components/**/*.test.tsx",
+  "src/components/**/*.tsx",
+  "src/components/**/*.types.ts",
+  "src/stories/*.stories.ts",
+
+  "src/*.ts",
+  "src/components/Text/Text.test.tsx",
+  "src/components/Table/index.ts",
+  "src/components/Table/*.test.tsx",
+
+
+
+],
+
+
+  "extends": "./tsconfig.json"
+}
