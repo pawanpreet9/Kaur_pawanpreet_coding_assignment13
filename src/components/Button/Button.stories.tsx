@@ -1,25 +1,24 @@
 import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
 import Button from "./Button";
-
+const unusedVariable = 'unused';
 const meta: Meta<typeof Button> = {
   component: Button,
   title: "Components/Button",
   argTypes: {},
 };
+export default meta;
 
 type Story = StoryObj<typeof Button>;
 
-export default meta;
-
 export const Primary: Story = (args) => (
-  <Button data-testId="InputField-id" {...args} />
+                   <Button data-testId="InputField-id" {...args} />
 );
 Primary.args = {
   primary: true,
   disabled: false,
   text: "Primary",
-  backgroundColor:"#55bd90",
+  backgroundColor:"#55bd90"
 };
 
 export const Secondary: Story = (args) => (
@@ -69,7 +68,3 @@ Large.args = {
   size: "large",
   text: "Large",
 };
-
-// Intentional violations for testing Git hooks
-console.log("This is a linting violation")
-const invalidVariable = 123;
