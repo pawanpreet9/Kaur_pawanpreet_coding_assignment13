@@ -13,11 +13,11 @@ describe('Button Component', () => {
     expect(componentElement).toBeVisible();
   });
 
-  test('background color changes when component is disabled', () => {
+  test("background color changes when component is disabled", () => {
     render(<Button  disabled />);
 
     const componentElement = screen.getByRole('button');
-    const buttonElement = screen.getByRole('button')
+    const buttonElement = screen.getByRole('button');
     expect(buttonElement).toHaveStyle('background-color: #cccccc');
   });
 
