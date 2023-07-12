@@ -17,7 +17,7 @@ describe('Button Component', () => {
     render(<Button  disabled />);
 
     const componentElement = screen.getByRole('button');
-    const buttonElement = screen.getByRole('button');
+    const buttonElement = screen.getByRole('button')
     expect(buttonElement).toHaveStyle('background-color: #cccccc');
   });
 
