@@ -1,6 +1,9 @@
 # To clone the git repository use this command
 git clone https://github.com/pawanpreet9/kaur_pawanpreet_coding_assignment13.git
 
+#Intialize the empty git repo to install the dependencies correctly without error.
+git init
+
 # To install dependencies
 npm install
 
