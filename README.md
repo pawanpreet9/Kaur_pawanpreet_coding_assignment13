@@ -8,7 +8,11 @@ npm install
 # To run the storybook run this command.
 npm run storybook
 
+
+
 # To commit changes run
+git init
+git add .
 git commit -m "testing"
 
 # To run the tests use this command.
