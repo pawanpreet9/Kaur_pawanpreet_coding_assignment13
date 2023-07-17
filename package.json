@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test2": "jest",
+    "test": "jest",
     "build": "rollup -c --bundleConfigAsCjs",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
@@ -16,18 +16,17 @@
     "pre-commit-check": "npm run prettier-check && npm run eslint-check && npm run test",
     "prettier-check": "prettier --check .",
     "eslint-check": "eslint .",
-    "test": "npm test"
+
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
-    "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
+      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
       "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
       "post-applypatch": "echo \"[Husky] post-applypatch\"",
       "pre-commit": "echo \"[Husky] pre-commit\""
-
     }
-  }
-,
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -85,7 +84,6 @@
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "husky": "^8.0.3",
     "tslib": "^2.5.3"
   }
 }
